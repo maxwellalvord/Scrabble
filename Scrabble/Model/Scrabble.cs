@@ -10,7 +10,7 @@ namespace Scrabble.Models
     public string Content { get; set;}
     
 
-    public int Letter (string word)//c // length = 1
+    public int Letter (string word)
     {
       int Score = 0;
       for ( int i = 0; i <= word.Length -1 ; i++)
