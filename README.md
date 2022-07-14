@@ -16,10 +16,10 @@ This program will run in your console and allow the user to input a word and rec
 
 ## Setup/Installation Requirements
 
-* git clone 
-* cd into 
-* run $ dotnet restore 
-* uncomment line 5 in Template.csproj after you add UI logic. 
+* $ git clone 
+* cd into Scrabble 
+* $ dotnet restore 
+* $ dotnet run 
 
 ## Known Bugs
 
