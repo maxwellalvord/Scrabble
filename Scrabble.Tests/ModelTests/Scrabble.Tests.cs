@@ -20,5 +20,14 @@ namespace Scrabble.Tests
       Word newWord = new Word(wordInput);
       Assert.AreEqual(wordInput, newWord.Content);
     }
+
+    [TestMethod]
+    public void WordToLetter_PullOutLetter_true()
+    {
+      string wordLetter = "c";
+      Word newWord = new Word(wordLetter);
+
+      Assert.AreEqual(wordLetter, newWord.Letter("c"));
+    }
   }
 }

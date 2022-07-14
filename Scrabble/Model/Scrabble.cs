@@ -7,7 +7,18 @@ namespace Scrabble.Models
   public class Word
   {
     public string Content { get; set;}
-    private static List<Word> _instances = new List<Word> {};
+
+    public string Letter (string word)//c // length = 1
+    {
+      // string l = word;
+      // int Score = 0;
+      // for ( int i = 0; i <= l.Length -1 ; i++)
+      // {
+       
+      // }
+      return word;
+    }
+    // private static List<Word> _instances = new List<Word> {};
 
     // public static List<Word> GetAll()
     // {
@@ -19,9 +30,9 @@ namespace Scrabble.Models
     //   _instances.Clear();
     // }
     public Word(string content)
-    {
+    { 
       Content = content;
-      _instances.Add(this);
+      // _instances.Add(this);
     }
   }
 }
