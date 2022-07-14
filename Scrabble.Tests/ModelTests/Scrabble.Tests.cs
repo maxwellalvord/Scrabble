@@ -22,12 +22,13 @@ namespace Scrabble.Tests
     }
 
     [TestMethod]
-    public void WordToLetter_PullOutLetter_true()
+    public void WordToLetter_ScoreLetters_true()
     {
-      string wordLetter = "c";
-      Word newWord = new Word(wordLetter);
+      string wordInput = "car";
+      int wordScore = 5; 
+      Word newWord = new Word(wordInput);
 
-      Assert.AreEqual(wordLetter, newWord.Letter("c"));
+      Assert.AreEqual(wordScore, newWord.Letter("car"));
     }
   }
 }
